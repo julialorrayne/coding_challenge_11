@@ -81,12 +81,6 @@ class Library {  //Created a class Library
 };
 
 
-
-//Task 5: Implementing Book Returns
-//Add a method returnBook(borrowerId, isbn) in the
-//  Library class:
-// Increases the book’s available copies.
-// Removes the book from the borrower’s borrowed list.
 //test:
 const borrower1 = new Borrower("Alice Johnson", 201);
 borrower1.borrowBook("The Great Gatsby");
